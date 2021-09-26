@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        /* ćw.3 */
+
+        /*  zad.1 napisać interfejs który bedzie słuzył do wpisania danych osobowych:
+         *   a) Imię, nazwisko, wiek, nr indeksu,
+         *   dane mają być wprowadzane z klawiatury w konsoli
+         *   b) wyświetlić dane za pomocą println i printf
+         */
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Podaj imię_nazwisko");
+        String Name = scan.next();
+
+        Scanner scan1 = new Scanner(System.in);
+        System.out.println("Podaj numer indeksu");
+        String index = scan.next();
+
+        Scanner scan2 = new Scanner(System.in);
+        System.out.println("Podaj wiek");
+        String age = scan.next();
+
+        System.out.println("Twoje imię i nazwisko to " + Name + "");
+        System.out.println("Twój indeks to " + index + "");
+        System.out.println("Twój wiek to" + age + "");
+
+    }
