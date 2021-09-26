@@ -1,0 +1,81 @@
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int zmiennaInt = 7;
+        System.out.println("zmienna int = " + zmiennaInt);
+        /* ćw.2 */
+
+        /*   zad.1 zadeklaruj i zainicjalizuj zmienne różnych typów i wyświetl w konsoli (im więcej tym lepiej ;) ) */
+
+        byte zmiennabyte = 22;
+        short zmiennashort = 1231;
+        int zmiennaint = 10213;
+        long zmiennalong = 123000123000L;
+        float zmiannafloat = 22.12f;
+        double zmiennadouble = 129000.1299;
+        boolean zmiennaboolean = true;
+        char zmiennachar = 't';
+
+        int zmienna1=16;
+        int a, b, c=3, d, e=4;
+        int wynik = c+e;
+        System.out.print(wynik);
+
+
+        /*
+         *    zad.2 Napisz kod który będzie wykonywał operacje: dodawania, odejmowania,
+         *    mnożenia, dziealenia i modulo na zmiennych:
+         *    a) liczbaA i liczbaB, dowolne liczby calkowite (int),
+         *    b) liczbaX i liczbaY, dowolne liczby zmiennoprzecinkowe (double)
+         *  */
+
+        int LiczbaA = 1;
+        int LiczbaB = 2;
+        double LiczbaY = 5.6;
+        double LiczbaX = 13.3;
+
+
+        int dodawanie = LiczbaA + LiczbaB;
+        System.out.print(dodawanie);
+
+        int odejmowanie = LiczbaA-LiczbaB;
+        System.out.print(odejmowanie);
+
+        int mnożenie = LiczbaA*LiczbaB;
+        System.out.print(mnożenie);
+
+        int dzielenie = LiczbaA/LiczbaB;
+        System.out.print(dzielenie);
+
+        int modulo = LiczbaA%LiczbaB;
+        System.out.print(modulo);
+//
+
+        double Add = LiczbaY + LiczbaX;
+        System.out.print(Add);
+
+        double Sub = LiczbaX-LiczbaY;
+        System.out.print(Sub);
+
+        double multiply = LiczbaY*LiczbaX;
+        System.out.print(multiply);
+
+        double divide = LiczbaX/LiczbaY;
+        System.out.print(divide);
+
+        double modulox = LiczbaX %LiczbaY;
+        System.out.print(modulox);
+
+
+
+
+
+
+
+
+    }
+}
