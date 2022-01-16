@@ -40,6 +40,7 @@ public class Main {
         int liczbaa = scan.nextInt();
 
 
+    /*  miało być else if() */
         if (0 == liczbaa % 2) {
             System.out.println("jest parzysta");
         } else {
